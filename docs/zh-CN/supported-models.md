@@ -38,6 +38,6 @@ Nodri 可连接**即梦、小云雀和 LibTV** 账号生成图片、视频与音
 
 使用自己的平台账号登录，各账号余额独立；切换账号影响后续提交。项目、导入素材与生成结果保存在本机；生成在线处理，引用素材会上传到所选平台。平台名称用于说明兼容范围，不代表官方合作。
 
-v0.1.1 公开下载适用于 **Apple 芯片 Mac**。Windows 11 x64 正在适配，该版没有公开 Windows 安装包。
+v0.1.1 提供 **Apple 芯片 Mac** 与 [Windows 11 x64 安装包](https://github.com/imaoda/nodri-canvas/releases/download/v0.1.1/Nodri-0.1.1-win-x64.exe)，Mac 下载见页首版本链接。Windows 安装包未签名。
 
 下一步：[即梦与小云雀画布工作流](./jimeng-xiaoyunque-workflow.md) · [Seedance 图生视频教程](./seedance-image-to-video.md)

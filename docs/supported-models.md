@@ -38,6 +38,6 @@ The app labels its option **Image 2.5 Sunburst**, shortened to **Image 2.5 Pro**
 
 Sign in with your own platform account. Balances are separate, and switching accounts affects later submissions. Projects and imported/generated assets are stored locally; generation runs online and reference media is uploaded to the selected platform. Platform names describe compatibility, not an official partnership.
 
-The public v0.1.1 download is for **macOS Apple silicon**. Windows 11 x64 is in progress, with no published Windows installer for this release.
+v0.1.1 downloads: **macOS Apple silicon** from the release page above, or the [Windows 11 x64 installer](https://github.com/imaoda/nodri-canvas/releases/download/v0.1.1/Nodri-0.1.1-win-x64.exe). The Windows installer is unsigned.
 
 Continue with [Jimeng and Xiaoyunque workflows](./jimeng-xiaoyunque-workflow.md) or [Seedance image-to-video](./seedance-image-to-video.md).

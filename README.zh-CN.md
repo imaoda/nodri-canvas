@@ -7,7 +7,7 @@
 <p align="center"><strong>连接即梦、小云雀与 LibTV，在本地画布里组织 AI 创作。</strong></p>
 
 <p align="center"><a href="./README.md">English</a> · 简体中文<br />
-<a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>下载 Mac 版</strong></a> · Apple 芯片</p>
+<a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>下载 Mac / Windows 版</strong></a></p>
 
 Nodri 是面向 AI 图像、短剧和视频创作的桌面画布工具。连接**即梦、小云雀或 LibTV** 账号，把角色参考、场景、分镜和生成结果放在同一个本地项目里，减少切换网站、查找文件和手动上传的操作。
 
@@ -37,7 +37,7 @@ Nodri 是面向 AI 图像、短剧和视频创作的桌面画布工具。连接*
 
 ## 开始使用
 
-1. 下载 Mac 版，安装后新建项目。
+1. 下载对应平台的版本，安装后新建项目。
 2. 进入「设置 → 账号管理 → 添加账号」，选择平台并完成登录。
 3. 拖入参考素材，双击空白处新建图像或视频节点。
 4. 连线或输入 `@` 引用素材，描述镜头，选择当前账号和模型后提交。
@@ -61,6 +61,6 @@ Nodri 是面向 AI 图像、短剧和视频创作的桌面画布工具。连接*
 
 ![同一项目的浅色与深色外观](./assets/readme/appearance.png)
 
-当前提供 **Apple 芯片 Mac** 下载。Windows 11 x64 正在适配，尚无公开下载。本仓库提供产品介绍与发布产物，**源码暂未公开**。
+提供 **Apple 芯片 Mac / Windows 11 x64** 下载。Windows 安装包未签名。**源码暂未公开**。
 
 [查看更新](https://github.com/imaoda/nodri-canvas/releases) · [反馈与建议](https://github.com/imaoda/nodri-canvas/issues)

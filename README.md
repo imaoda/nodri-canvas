@@ -8,7 +8,7 @@
 支持即梦、小云雀的 AI 图像与视频创作画布。</p>
 
 <p align="center">English · <a href="./README.zh-CN.md">简体中文</a><br />
-<a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>Download for Mac</strong></a> · Apple silicon</p>
+<a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>Download for Mac / Windows</strong></a></p>
 
 Nodri is a desktop canvas for AI images, short dramas and video creation. Connect your **Jimeng (即梦), Xiaoyunque (小云雀) or LibTV** account, then organize character references, scenes, storyboards and generated clips in one local project.
 
@@ -38,7 +38,7 @@ See the [platform and model support table](./docs/supported-models.md) for exact
 
 ## Get started
 
-1. Download the Mac app and create a project.
+1. Download the app for your platform and create a project.
 2. Open settings → account management → add account, choose a platform and sign in.
 3. Drag in references. Double-click empty canvas space to create an image or video node.
 4. Connect references or type `@`, describe the shot, select the current account and model, then submit.
@@ -62,6 +62,6 @@ See the [platform and model support table](./docs/supported-models.md) for exact
 
 ![Nodri light and dark themes](./assets/readme/appearance.png)
 
-Available for **macOS Apple silicon**. Windows 11 x64 is in progress; no Windows download is currently published. This repository hosts product information and releases; **source code is not public**.
+Downloads: **macOS Apple silicon / Windows 11 x64**. The Windows installer is unsigned. **Source code is not public**.
 
 [Releases](https://github.com/imaoda/nodri-canvas/releases) · [Feedback](https://github.com/imaoda/nodri-canvas/issues)
