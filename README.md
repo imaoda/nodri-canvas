@@ -2,91 +2,66 @@
   <img src="./assets/readme/app-icon.png" width="72" height="72" alt="Nodri app icon" />
 </p>
 
-<h1 align="center">Nodri</h1>
+<h1 align="center">Nodri — AI Image &amp; Video Canvas</h1>
 
-<p align="center"><strong>A local canvas for AI image and video creation.</strong></p>
+<p align="center"><strong>A local creative canvas for Jimeng, Xiaoyunque and LibTV.</strong><br />
+支持即梦、小云雀的 AI 图像与视频创作画布。</p>
 
-<p align="center">
-  Keep characters, scenes, storyboards, and results together.<br />
-  Spend less time switching between websites and folders.
-</p>
+<p align="center">English · <a href="./README.zh-CN.md">简体中文</a><br />
+<a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>Download for Mac</strong></a> · Apple silicon</p>
 
-<p align="center">
-  English · <a href="./README.zh-CN.md">简体中文</a>
-</p>
+Nodri is a desktop canvas for AI images, short dramas and video creation. Connect your **Jimeng (即梦), Xiaoyunque (小云雀) or LibTV** account, then organize character references, scenes, storyboards and generated clips in one local project.
 
-<p align="center">
-  <a href="https://github.com/imaoda/nodri-canvas/releases/latest"><strong>Download for Mac</strong></a><br />
-  <sub>Apple silicon · Windows support in progress</sub>
-</p>
+![Nodri AI video canvas with character references, scenes and storyboards](./assets/readme/hero.png)
 
-<p align="center">
-  <img src="./assets/readme/hero.png" width="1080" alt="Character and scene references, storyboards, and clips in Nodri" />
-  <br /><sub>Actual app · Imported demo media · Chinese UI</sub>
-</p>
+*Actual app · Imported demo media · Chinese UI.*
 
-Use Nodri for short dramas, vertical videos, and projects that reuse character and scene references.
+## From references to AI video
 
-## Local assets, reusable across providers
+Connect nodes or use **@ references** in a generation prompt. Create a storyboard image, then reuse it as a video reference. Keep inputs and results together for the next revision.
 
-Drag in images, video, or audio. Nodri copies them into your local project, so moving the originals does not break imported references. Canvas-generated results are downloaded there too.
+![Character and scene references connected to a short-drama shot](./assets/readme/workflow.png)
 
-Use these assets as references across providers, with less downloading, file searching, and manual uploading.
+Drag images, video or audio into the canvas. Imported files are copied into the project; generated results are saved there too. Moving the original imported files does not break these copies.
 
-## Browse and arrange your canvas
+Pan, zoom, select and drag to move between the whole project and individual shots.
 
-Pan, zoom, select, and drag between the overall layout and individual shots. Performance work targets these actions in canvases with **hundreds of nodes**. Recorded in the actual app.
+![Actual Nodri recording of canvas navigation and node selection](./assets/readme/interaction.gif)
 
-<p align="center">
-  <img src="./assets/readme/interaction.gif" width="960" alt="Actual Nodri recording: pan, zoom, select, and drag" />
-</p>
+## Supported platforms and models
 
-## Consistent generation controls
+Version **0.1.1** includes **Seedance 2.5 / 2.0**, **MiniMax H3**, **Seedream 5.0**, **Image 2.5 Sunburst** and **Seed Audio**, depending on the connected platform.
 
-Connect nodes or use **@ references**, then enter a prompt and choose a model. These controls stay familiar across providers; available settings depend on the model.
+See the [platform and model support table](./docs/supported-models.md) for exact variants, reference limits and the GPT Image 2.5 naming question. Availability and credits depend on your platform account.
 
-Use character and scene images to make a storyboard, then reference it for video. Keep the inputs and results together for the next revision.
+![Account menu with Xiaoyunque, Jimeng and LibTV](./assets/readme/accounts.png)
 
-<p align="center">
-  <img src="./assets/readme/workflow.png" width="960" alt="Character and scene references connected to a prompt for a vertical short-drama shot" />
-</p>
+## Get started
 
-## Accounts and daily credits in one place
+1. Download the Mac app and create a project.
+2. Open settings → account management → add account, choose a platform and sign in.
+3. Drag in references. Double-click empty canvas space to create an image or video node.
+4. Connect references or type `@`, describe the shot, select the current account and model, then submit.
 
-Choose a connected **Xiaoyunque (小云雀), Jimeng (即梦), or LibTV** account from a dropdown. Switching affects new submissions; existing tasks keep their original account.
+![Add references, describe a shot and choose generation settings](./assets/readme/quickstart.png)
 
-The accounts page lets you **claim daily free credits across added accounts in one click**, subject to each provider’s rules.
+## Workflow guides
 
-<p align="center">
-  <img src="./assets/readme/accounts.png" width="640" alt="The Add Account menu with Xiaoyunque, Jimeng, and LibTV" />
-</p>
+- [Use Jimeng and Xiaoyunque in one AI video canvas](./docs/jimeng-xiaoyunque-workflow.md)
+- [Seedance image-to-video: character references to multiple shots](./docs/seedance-image-to-video.md)
+- [Organize AI short-drama characters, scenes and results](./docs/short-drama-assets.md)
+- [Nodri or provider websites: which workflow fits?](./docs/nodri-vs-provider-websites.md)
 
-## Getting started
+## Common questions
 
-Create a project and add a generation account from the toolbar.
+**Does local mean offline generation?** Projects and assets are local. Generation runs online through the connected platform, and reference media is uploaded to it.
 
-1. **Bring references.** Drag in character and scene images. Double-click empty canvas space to create an image or video node.
-2. **Describe the shot.** Connect references or use `@` in its generation input. Describe framing and action.
-3. **Generate.** Choose a model, check the settings, and generate a storyboard image or clip.
+**Are credits shared between providers?** Each account keeps its own balance. Switching accounts affects new submissions; existing tasks keep their original account. Daily credit claims follow each platform's rules.
 
-<p align="center">
-  <img src="./assets/readme/quickstart.png" width="960" alt="Add references, describe a shot, then choose a model and generate" />
-</p>
+**What else is included?** Text and audio generation, an optional Agent and `nodri` CLI automation. These need their own supported runtime or account setup. Light, dark and system themes are available.
 
-## Light and dark themes
+![Nodri light and dark themes](./assets/readme/appearance.png)
 
-Choose **light, dark, or system appearance** in settings.
+Available for **macOS Apple silicon**. Windows 11 x64 is in progress; no Windows download is currently published. This repository hosts product information and releases; **source code is not public**.
 
-<p align="center">
-  <img src="./assets/readme/appearance.png" width="960" alt="The same short-drama project shown side by side in Nodri's light and dark appearance" />
-</p>
-
-Capabilities are extended through bundled plugins. User-installed plugins are not yet available.
-
----
-
-**Available now:** macOS on Apple silicon. Windows 11 x64 support is in progress, with real-device validation still pending.
-
-This repository hosts product information and releases. **Source code is not yet public.** Parts may be opened gradually.
-
-[Download](https://github.com/imaoda/nodri-canvas/releases/latest) · [Release notes](https://github.com/imaoda/nodri-canvas/releases) · [Share feedback](https://github.com/imaoda/nodri-canvas/issues)
+[Releases](https://github.com/imaoda/nodri-canvas/releases) · [Feedback](https://github.com/imaoda/nodri-canvas/issues)
